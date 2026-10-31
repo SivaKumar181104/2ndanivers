@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story ❤️ Siva & Madhu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+        <div class="floating-hearts" aria-hidden="true"></div>
+
+    <!-- FRAME 1: WELCOME -->
+    <section class="page active" id="page1">
+        <div class="card">
+            <div class="top-heart">💗</div>
+            <p class="small-title">A special surprise for someone special</p>
+
+            <h1>Welcome to Our Love Story</h1>
+
+            <h2>Siva <span class="pink">♥</span> Madhu</h2>
+
+            <p>
+                I have made something special for you.
+                Every little part of this website comes
+                straight from my heart.
+            </p>
+
+            <button onclick="nextPage(2)">
+                Open My Surprise 💌
+            </button>
+        </div>
+    </section>
+
+    <!-- FRAME 2: PASSWORD -->
+    <section class="page" id="page2">
+        <div class="card">
+            <div class="top-heart">🔐</div>
+
+            <h1>Only For You</h1>
+
+            <p>
+                Before entering our little world,
+                enter our special secret PIN.
+            </p>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your secret PIN"
+                maxlength="10"
+                autocomplete="off"
+            >
+
+            <p id="passwordMessage"></p>
+
+            <button onclick="checkPassword()">
+                Unlock My Heart ❤️
+            </button>
+
+            <button class="back-button" onclick="nextPage(1)">
+                ← Go Back
+            </button>
+        </div>
+    </section>
+
+    <!-- FRAME 3: COUNTDOWN -->
+    <section class="page" id="page3">
+        <div class="card">
+            <div class="top-heart">💞</div>
+
+            <p class="small-title">A beautiful journey together</p>
+
+            <h1>Our Special Day</h1>
+
+            <h2>7 November 2026</h2>
+
+            <p>
+                Every moment with you is a beautiful memory.
+                Let's celebrate our second month together!
+            </p>
+
+            <div class="countdown">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Days</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Hours</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutes</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Seconds</small>
+                </div>
+            </div>
+
+            <p class="love-line">
+                You make every second worth living. ❤️
+            </p>
+
+            <button onclick="nextPage(4)">
+                Read My Heart 💌
+            </button>
+
+            <button class="back-button" onclick="nextPage(2)">
+                ← Back
+            </button>
+        </div>
+    </section>
+
+    <!-- FRAME 4: LOVE LETTER -->
+    <section class="page" id="page4">
+        <div class="card letter-card">
+            <div class="top-heart">💌</div>
+
+            <h1>My Dearest Madhu</h1>
+
+            <div class="letter">
+                From the day you came into my life,
+                everything became a little more beautiful.
+
+                You are my happiness, my smile,
+                and my most favourite person.
+
+                I don't need a perfect world.
+                I just need you beside me.
+
+                Every little moment with you is special.
+                Every smile of yours makes my day better.
+
+                I promise to keep choosing you,
+                caring for you, and loving you.
+
+                Thank you for being part of my life.
+
+                Happy Second Month Anniversary,
+                my dear sotta buggallu!
+
+                Forever yours,
+                <strong>❤️ Siva</strong>
+            </div>
+
+            <button onclick="nextPage(5)">
+                See Our Memories 📸
+            </button>
+
+            <button class="back-button" onclick="nextPage(3)">
+                ← Back
+            </button>
+        </div>
+    </section>
+
+    <!-- FRAME 5: PHOTO GALLERY -->
+    <section class="page gallery-page" id="page5">
+
+        <h1>Our Beautiful Memories 📸</h1>
+
+        <p class="gallery-subtitle">
+            Seven little memories, one beautiful love story.
+        </p>
+
+        <div class="gallery">
+
+            <div class="photo-frame">
+                <img src="https://drive.google.com/thumbnail?id=1wBb_OiENZdfjhpf7Bo83rupQSLvxfkfI&sz=w1200" alt="Memory 1">
+                <p>Our Memory ❤️</p>
+            </div>
+
+            <div class="photo-frame">
+                <img src="https://drive.google.com/thumbnail?id=1Hl8ufrEbccmniPFqKuJrvk-HhIjOsIBK&sz=w1200" alt="Memory 2">
+                <p>Beautiful Moments 💕</p>
+            </div>
+
+            <div class="photo-frame">
+                <img src="https://drive.google.com/thumbnail?id=1st8eDcqc1_HhU9V4hhJBVsHnqgExNoLg&sz=w1200" alt="Memory 3">
+                <p>Forever Together 💖</p>
+            </div>
+
+            <div class="photo-frame">
+                <img src="https://drive.google.com/thumbnail?id=1zYvG0sT3pTmxnfF8qMIZ7oAIQXIAe7g6&sz=w1200" alt="Memory 4">
+                <p>My Happiness 🌸</p>
+            </div>
+
+            <div class="photo-frame">
+                <img src="https://drive.google.com/thumbnail?id=1R-85Ewiok6iG0jV74eVaTtNWLike9PCb&sz=w1200" alt="Memory 5">
+                <p>Special Memories 💗</p>
+            </div>
+
+            <div class="photo-frame">
+                <img src="https://drive.google.com/thumbnail?id=1uZijGscSslRddZJ-RUe1rW0g_R0BO-PV&sz=w1200" alt="Memory 6">
+                <p>My Favourite Person 🥰</p>
+            </div>
+
+            <div class="photo-frame">
+                <img src="https://drive.google.com/thumbnail?id=1pAcA8kmbaMdHWn2j_TFrRrljr91h4R6F&sz=w1200" alt="Memory 7">
+                <p>Always You ❤️</p>
+            </div>
+
+        </div>
+
+        <button onclick="nextPage(6)">
+            One Last Surprise 🌅
+        </button>
+
+        <button class="back-button" onclick="nextPage(4)">
+            ← Back to Love Letter
+        </button>
+    </section>
+
+    <!-- FRAME 6: FINAL SCREEN -->
+    <section class="page final-page" id="page6">
+
+        <div class="final-content">
+
+            <p class="small-title">My favourite ending</p>
+
+            <h1>Forever With You ❤️</h1>
+
+            <img
+                src="https://drive.google.com/thumbnail?id=1HqNyHtb0KOmKCXBpqHZ2sMGSf01fxW6D&sz=w1200"
+                alt="Our sunset memory"
+            >
+
+            <h2>My Favourite Person to Go Back To...</h2>
+
+            <p>
+                No matter where life takes us,
+                I will always find my way back to you.
+            </p>
+
+            <h2 class="final-love">
+                I Love You Forever, Madhu ❤️
+            </h2>
+
+            <p>Yours always, Siva.</p>
+
+            <button onclick="nextPage(1)">
+                Experience Our Story Again 💕
+            </button>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
